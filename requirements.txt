@@ -1,0 +1,18 @@
+# Core Requirements
+streamlit==1.29.0
+pandas==2.1.4
+numpy==1.26.2
+plotly==5.18.0
+python-dateutil==2.8.2
+pytz==2023.3.post1
+
+# MetaTrader5 Specific
+MetaTrader5==5.0.43
+
+# Optional (for better performance)
+numba==0.58.1  # Speeds up indicator calculations
+python-dotenv==1.0.0  # For environment variables
+
+# Development Tools (optional)
+pylint==3.0.3  # Code linting
+black==23.11.0  # Code formatting
